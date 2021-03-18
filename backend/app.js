@@ -1,12 +1,5 @@
-const express = require('express')
-const app = express()
-const port = process.env.port
+const server = require('./server/index.js');
 
-app.get('/', (req, res) => {
-    res.send('Hello MySimpleTodo!');
-})
+const PORT = process.env.PORT || 3300;
 
-
-app.listen(port, () => {
-    console.log(`Your app is running on port ${port}`)
-})
+server.listen(PORT, () => console.log(`Server is live at localhost:${PORT}`));

@@ -6,7 +6,11 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon -r dotenv/config app.js",
-        "db:create": "npx sequelize db:create"
+        "db:create": "npx sequelize db:create",
+        "db:migrate": "npx sequelize db:migrate",
+        "db:g:migration": "npx sequelize migration:generate --name",
+        "db:g:seed": "npx sequelize seed:generate --name",
+        "db:seeds": "npx sequelize db:seed:all"
     },
     "author": "",
     "license": "ISC",
