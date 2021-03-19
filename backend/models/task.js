@@ -17,7 +17,8 @@ module.exports = (sequelize, DataTypes) => {
         description: DataTypes.STRING,
         owner: DataTypes.STRING,
         email: DataTypes.STRING,
-        changes: DataTypes.INTEGER
+        changes: DataTypes.INTEGER,
+        done: DataTypes.BOOLEAN
     }, {
         sequelize,
         modelName: 'Task',

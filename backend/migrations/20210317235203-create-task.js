@@ -17,6 +17,9 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
+      done: {
+        type: Sequelize.BOOLEAN
+      },
       changes: {
         type: Sequelize.INTEGER
       },

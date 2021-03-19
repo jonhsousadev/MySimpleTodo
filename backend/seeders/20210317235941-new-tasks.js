@@ -8,6 +8,7 @@ module.exports = {
                     owner: 'Jonh Sousa',
                     email: 'jonhnbsousa@gmail.com',
                     changes: 0,
+                    done: false,
                     createdAt: new Date().toISOString(),
                     updatedAt: new Date().toISOString()
                 },
@@ -16,6 +17,7 @@ module.exports = {
                     owner: 'Ana Sousa',
                     email: 'anasousa@gmail.com',
                     changes: 0,
+                    done: false,
                     createdAt: new Date().toISOString(),
                     updatedAt: new Date().toISOString()
                 },
@@ -24,6 +26,7 @@ module.exports = {
                     owner: 'Beatriz Sousa',
                     email: 'beatrizsousa@gmail.com',
                     changes: 0,
+                    done: false,
                     createdAt: new Date().toISOString(),
                     updatedAt: new Date().toISOString()
                 },
