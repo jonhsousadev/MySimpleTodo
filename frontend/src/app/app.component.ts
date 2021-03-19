@@ -71,6 +71,7 @@ export class AppComponent implements OnInit {
     this.getTasks();
     form.resetForm();
     this.task = {} as Task;
+    this.newTaskValue = false;
   }
 
 }
